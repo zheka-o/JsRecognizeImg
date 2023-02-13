@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>title</title>
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="jquery.jqscribble.js"></script>
+    <script src="theta.js"></script>
+    <script src="app.js"></script>
+  </head>
+  <body>
+
+    <div style="height: 20px; width: 20px;">
+        <canvas id="digitCanvas" style="border: 1px solid black;" onmouseup="processImage()"></canvas>
+    </div>
+    <div>
+    <span id="result" >ready</span>
+    </div>
+    <div>
+    <a href="#" onclick='up();'>up</a>
+    <a href="#" onclick='down();'>down</a>
+    </div>
+    <div>
+    <a href="#" onclick='left();'>left</a>
+    <a href="#" onclick='right();'>right</a>
+    </div>
+    <a href="#" onclick='clearImg();'>Clear</a>
+  </body>
+</html>
